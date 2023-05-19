@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/d.css">
+    <title> Music Fixer </title>
+</head>
+<body>
+
+<header>
+  <h1>Audio Fixer</h1>
+  <a href="/users/logout" style="color: #fff; text-decoration: none;" class="l">Logout</a>
+</header>  
+
+<div class="container">
+<p>Lets make some music! <%= user.name %>!</p>
+</div>
+
+<div class="container">
+    <h1>Upload a new track</h1>
+        <button id="uploadB">Upload new track</button>
+    <h1>Edit a Old Track</h1>
+          <ol>
+            <li><button> Most recent track</button></li>
+            <li><button> track 2 </button></li>
+            <li><button> track 3 </button></li>
+          </ol>
+        
+    <h1>Saved Files</h1>
+        <button>Backroom</button>
+      <ol>
+        <li>Most Recent Save for download</li>
+        <li>Most recent master for download</li>
+      </ol>
+</div>
+
+
+
+<footer>
+  Made with &hearts; in Philly | &copy; <a href="http://fsdevkd.com">FsDevKD</a>
+</footer>
+<script src ="/public/js/main.js"></script>
+</body>
+</html>
